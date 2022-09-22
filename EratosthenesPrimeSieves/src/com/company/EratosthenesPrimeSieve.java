@@ -4,6 +4,8 @@ public class EratosthenesPrimeSieve implements PrimeSieves
 
     public static void main(String[] args)
     {
+        EratosthenesPrimeSieve eratosthenesPrimeSieve = new EratosthenesPrimeSieve();
+        eratosthenesPrimeSieve.printPrimes();
     }
 
     public boolean[] isPrime()
