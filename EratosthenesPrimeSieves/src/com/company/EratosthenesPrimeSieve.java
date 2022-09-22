@@ -31,5 +31,10 @@ public class EratosthenesPrimeSieve implements PrimeSieves
 
     public void printPrimes()
     {
+        boolean[] primes = isPrime();
+        for (int i = 2; i <= MAX; i++)
+        {
+            if(primes[i]) System.out.println(i);
+        }
     }
 }
